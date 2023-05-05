@@ -1,0 +1,316 @@
+.header {
+  height: 118px;
+
+  display: flex;
+  align-items: end;
+  background: #fff;
+}
+
+.menu-bar {
+  width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 20;
+  background-color: #fff;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav {
+  align-items: center;
+  width: 601px;
+  margin: 0 40px 0 195px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.li-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #37393f;
+}
+
+.fa-chevron-down {
+  width: 2px;
+  height: 1px;
+  color: #37393f;
+}
+
+.menu-button {
+  width: 184px;
+  height: 65px;
+  background: #6b77e5;
+
+  border: none;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.section-process {
+  margin: 136px auto 60px auto;
+}
+.main-process {
+  width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.process-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #37393f;
+}
+
+.header-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #37393f;
+}
+
+.boxes-marge {
+  width: 1220px;
+  margin-top: 41px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: end;
+}
+
+.process-box {
+  width: 386px;
+  height: 383px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-header {
+  margin-top: 58px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #37393f;
+}
+
+.box-paragraph {
+  width: 300px;
+  margin: 16px auto 37px auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 146.19%;
+
+  text-align: center;
+
+  color: #7d7d7d;
+}
+
+.box-final {
+  width: 111px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #6b77e5;
+}
+.icon {
+  border-radius: 50%;
+
+  width: 72px;
+  height: 72px;
+
+  background: #40ddb6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-active {
+  background-color: #6b77e5;
+}
+
+.rectangle-image {
+  margin: 0 auto;
+  width: 1920px;
+  position: relative;
+}
+
+.rectangle-box {
+  position: absolute;
+  top: 143px;
+  right: 706px;
+  width: 511px;
+  height: 270.5px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.rectangle-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #37393f;
+}
+
+.rectangle-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #37393f;
+}
+
+.rectangle-paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 146.19%;
+
+  text-align: center;
+
+  color: #37393f;
+}
+
+.play-buttom {
+  border-radius: 50%;
+
+  width: 64.5px;
+  height: 64.5px;
+  background: #6b77e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-our-team {
+  margin: 130px auto;
+}
+
+.main-team-box {
+  width: 1220px;
+  height: 659px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.experts-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experts-team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expert-person {
+  position: relative;
+  width: 386px;
+  height: 532px;
+}
+.pers-descrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 69px;
+
+  position: absolute;
+  width: 341px;
+  height: 114px;
+  background-color: #fff;
+  left: 22px;
+  top: 396px;
+}
+
+.pers-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+
+  text-align: center;
+
+  color: #37393f;
+}
+
+.pers-prop {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135.19%;
+
+  text-align: center;
+
+  color: #7d7d7d;
+}
