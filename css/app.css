@@ -180,9 +180,11 @@
   background-color: #6b77e5;
 }
 
+.section-image {
+  width: 100%;
+}
+
 .rectangle-image {
-  margin: 0 auto;
-  width: 1920px;
   position: relative;
 }
 
